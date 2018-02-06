@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Get_Child_Sample
 {
-    private static final String SERVER = "localhost:5000";
+    private static final String SERVER = "localhost:2181";
 
     public static void main(String[] args) throws Exception
     {
