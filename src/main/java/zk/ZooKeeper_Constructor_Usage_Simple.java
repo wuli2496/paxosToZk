@@ -24,6 +24,7 @@ public class ZooKeeper_Constructor_Usage_Simple implements Watcher
         } catch (InterruptedException e) {}
 
         System.out.println("ZooKeeper session established");
+        Thread.sleep(Integer.MAX_VALUE);
     }
 
     public void process(WatchedEvent event)
